@@ -1,0 +1,19 @@
+version: '3.3'
+
+services:
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: client
+    ports:
+      - 8080:8080
+    volumes:
+      - ./client:/app
+    networks:
+      - keep-track-of-finances
+    command: ["npm", "run", "serve"]
+
+networks:
+  keep-track-of-finances:
+    driver: bridge
