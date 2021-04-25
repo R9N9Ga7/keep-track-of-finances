@@ -1,0 +1,32 @@
+:root {
+  --white: #fff;
+  --green: #13a0aa;
+  --green-dark: #0d8891;
+  --gray-light: rgb(241, 240, 240);
+  --black: #111;
+  --red: rgb(194, 60, 60);
+}
+
+body {
+  color: var(--black);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.color-green {
+  color: var(--green);
+}
+
+.link {
+  color: var(--green);
+  transition: color .2s;
+  &:hover {
+    color: var(--green-dark);
+  }
+}

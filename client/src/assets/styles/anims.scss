@@ -1,0 +1,12 @@
+.horizontal-slide-enter-active, .horizontal-slide-leave-active {
+  transition: transform .3s;
+  transform: translateX(0);
+}
+
+.horizontal-slide-enter {
+  transform: translateX(150%);
+}
+
+.horizontal-slide-leave-to {
+  transform: translateX(-150%);
+}

@@ -1,9 +1,13 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
+import authentication from './app/authentication/auth.route';
+
 Vue.use(VueRouter);
 
-const routes = [];
+const routes = [
+  authentication,
+];
 
 const router = new VueRouter({
   mode: 'history',
