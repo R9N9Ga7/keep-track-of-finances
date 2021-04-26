@@ -16,3 +16,10 @@
     background-color: var(--green-dark);
   }
 }
+
+.btn-red {
+  background-color: #ef5350;
+  &:hover {
+    background-color: #e53935;
+  }
+}
