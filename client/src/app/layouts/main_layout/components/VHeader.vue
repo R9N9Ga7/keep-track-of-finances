@@ -34,7 +34,7 @@ export default {
     display: flex;
     align-items: center;
     .menu {
-      height: 30px;
+      height: 40px;
       padding: 5px;
       color: var(--white);
       border-radius: 5px;
